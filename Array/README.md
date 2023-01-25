@@ -1,5 +1,5 @@
 
-# Array functions in JS and Python
+# Array - A Linear Data Structure
 
 An array is a data structure that stores a collection of elements, all of the same data type. Each element in an array is identified by a unique index, which is an integer value that starts from 0. The elements in an array are stored in contiguous memory locations and can be accessed using the index.
 
