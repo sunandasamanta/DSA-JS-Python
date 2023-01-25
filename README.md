@@ -1,5 +1,5 @@
 
-# DSA-JS/Python
+# Data Structures and Algorithms - An Intro
 
 **Data Structure** is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each data structure has its own strengths and weaknesses and is suited to different types of problems.
 
