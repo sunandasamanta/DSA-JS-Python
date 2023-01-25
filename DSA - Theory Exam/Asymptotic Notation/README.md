@@ -28,7 +28,7 @@ There are three main types of asymptotic notation:
 
 Here is an example to illustrate how these notations work:
 
-    Consider an algorithm that takes an array of size n as input and finds\
+    Consider an algorithm that takes an array of size n as input and finds
     the maximum element in the array.
 
 - The worst-case scenario of this algorithm is that the maximum element is at the end of the array. In this case, the algorithm needs to compare all the elements of the array, which takes O(n) time. Therefore, the running time of the algorithm in the worst-case scenario is O(n).
