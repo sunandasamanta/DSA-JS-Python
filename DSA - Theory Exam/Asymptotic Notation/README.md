@@ -14,11 +14,13 @@
 1. Master Theorem and its application
 1. Recurrence relations and solving them using recursion tree method, substitution method, and iteration method.
 
+---
+
 ## Theory
 
 Asymptotic notation is a mathematical notation used to describe the behavior of an algorithm's running time as the input size grows without bound. It provides a way to express the growth of an algorithm's running time in a simplified manner, independent of the specific details of the input.
 
-There are three main types of asymptotic notation:
+There are two main types of asymptotic notation:
 
 1. **Big O Notation**: It is used to describe the upper bound of an algorithm's running time. It describes the worst-case scenario of an algorithm. The notation is written as O(f(n)), where f(n) is a function representing the running time of the algorithm. For example, O(n) means that the running time of the algorithm is at most linear in the size of the input.
 
@@ -41,77 +43,63 @@ It is important to note that when comparing the running time of different algori
 
 Asymptotic notation is a powerful tool to understand the performance of an algorithm and to compare the performance of different algorithms in a simplified manner. It gives an idea of how the algorithm will behave as the input size increases, without considering the specific details of the input.
 
-<!-- twenty five asymptotic notation questions on different algorithms, include easy, mid and difficult all -->
-## Asymptotic Notation Questions
+---
 
-- Determine the asymptotic notation for the following algorithms:
-    - Linear search
-    - Binary search
-    - Bubble sort
-    - insertion sort
-    - quick sort
-    - merge sort
-    - binary tree traversal
-    - Dijkstra's shortest path algorithm
-    - Depth-first search
-    - Breadth-first search
-    - Bellman-Ford algorithm
-- Compare the time complexity of different sorting algorithms
-- Compare the space complexity of different sorting algorithms
-- Analyze the time complexity of a recursive function
-- Analyze the space complexity of a recursive function
-- Explain the difference between O(n) and Θ(n) notation
-- Explain the difference between O(n) and Ω(n) notation
-- Explain the difference between O(n log n) and Θ(n log n) notation
-- What is the time complexity of an algorithm that runs in O(1) and why?
-- What is the time complexity of an algorithm that runs in O(n) and why?
-- What is the time complexity of an algorithm that runs in O(n^2) and why?
-- What is the time complexity of an algorithm that runs in O(log n) and why?
-- What is the time complexity of an algorithm that runs in O(n log n) and why?
-- What is the time complexity of an algorithm that runs in O(2^n) and why?
-- What is the time complexity of an algorithm that runs in O(n!) and why?
-- Explain the concept of space complexity and its importance
-- What is the space complexity of an algorithm that runs in O(1) and why?
-- What is the space complexity of an algorithm that runs in O(n) and why?
-- What is the space complexity of an algorithm that runs in O(n^2) and why?
-- What is the space complexity of an algorithm that runs in O(log n) and why?
-- What is the space complexity of an algorithm that runs in O(n log n) and why?
-- What is the space complexity of an algorithm that runs in O(2^n) and why?
+**Space Complexity**
 
-## Twenty-Five Asymptotic Notation Questions
+Space complexity refers to the amount of memory used by an algorithm during its execution. It is a measure of how much additional memory an algorithm requires as the size of the input data increases.
 
-### Easy:
+There are two types of space complexity:
 
-1. What is the time complexity of linear search algorithm in the worst case?
-1. What is the time complexity of bubble sort algorithm in the best case?
-1. What is the space complexity of insertion sort algorithm?
-1. What is the time complexity of a binary search algorithm in the average case?
-1. What is the time complexity of the breadth-first search algorithm?
-1. What is the time complexity of the Dijkstra's shortest path algorithm?
-1. What is the difference between O(n) and O(log n) notation?
-1. What is the difference between O(1) and O(n^2) notation?
-1. What is the difference between O(n) and O(n^2) notation?
-1. What is the difference between O(n log n) and O(n^2) notation?
+Auxiliary Space: The extra space or temporary space used by the algorithm.
+Space complexity: It is total space taken by the algorithm including Auxiliary Space and space used for input.
+Auxiliary space is the temporary space used by an algorithm, for example, the space used by variables and data structures. In the case of bubble sort, the algorithm only uses a constant amount of auxiliary space, as it only requires a few variables such as "i" and "j" in the for loops, and a variable "n" to store the length of the input array. So, the auxiliary space complexity of bubble sort is O(1).
 
-### Intermediate:
+The second type of space complexity is the total space taken by an algorithm, including the space used for input. In the case of the bubble sort, the input array is modified in-place, so no additional space is required to store the sorted array. So the total space complexity of bubble sort is O(1).
 
-1. What is the time complexity of the quick sort algorithm in the worst case?
-1. What is the time complexity of a binary tree traversal algorithm in the best case?
-1. What is the space complexity of a depth-first search algorithm?
-1. What is the time complexity of the Bellman-Ford algorithm?
-1. What is the difference between O(n log n) and Θ(n log n) notation?
-1. What is the difference between Ω(n) and Θ(n) notation?
-1. What is the difference between O(n) and Ω(n) notation?
-1. What is the time complexity of an algorithm that runs in O(n!) and why?
-1. What is the space complexity of an algorithm that runs in O(2^n) and why?
+Here is an example of the space complexity of a function that uses an additional data structure:
 
-### Difficult:
+    def func(n):
+        result = []
+        for i in range(n):
+            result.append(i)
+        return result
 
-1. Analyze the time complexity of a merge sort algorithm
-1. Analyze the space complexity of a breadth-first search algorithm
-1. Explain the concept of amortized analysis and its application
-1. What is the time complexity of an algorithm that runs in O(n log^2 n) and why?
-1. Analyze the time complexity of an algorithm that uses both a stack and a queue data structure.
-1. Compare the time complexity of different graph traversal algorithms (DFS, BFS, Dijkstra, Bellman-Ford, etc.)
+- In this example, the function creates an empty list called "result" and then uses a for loop to append "n" elements to the list. The space complexity of this function is O(n) because the amount of memory used increases linearly with the size of the input "n".
 
-## Twenty-Five Asymptotic Notation Long Questions
+- In general, it's important to consider both time and space complexity when analyzing and comparing algorithms, as a highly efficient algorithm in terms of time complexity may not be suitable for a particular problem if it requires too much memory.
+
+---
+
+Another example with explanation:
+
+    def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+    arr = [64, 34, 25, 12, 22, 11, 90]
+    print(bubble_sort(arr))
+
+Explanation:
+
+- This code defines a function called "bubble_sort" that takes an array as an input, and sorts the elements of the array in ascending order using the bubble sort algorithm.
+
+- The bubble sort algorithm repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
+- The function first initializes a variable "n" with the length of the input array. Then, it uses two nested for loops. The outer loop runs for "n" iterations, and the inner loop runs from 0 to "n-i-1".
+
+- The inner loop compares the current element (arr[j]) with the next element (arr[j+1]). If the current element is greater than the next element, the two elements are swapped using the Pythonic "tuple swapping" method.
+
+- This process of comparing and swapping adjacent elements continues until the inner loop completes its execution. Once the inner loop completes execution, the largest element in the array "bubbles" to the last position of the array. This is why it's called a bubble sort.
+
+- This process is repeated for "n" iterations until all elements are in their correct positions. The function then returns the sorted array.
+
+- In the example provided, the unsorted array [64, 34, 25, 12, 22, 11, 90] is passed to the function as an argument, and the function returns the sorted array [11, 12, 22, 25, 34, 64, 90].
+
+- The Time complexity of bubble sort algorithm is O(n^2) in worst and average case. It has O(n) best-case performance when the input array is already sorted.
+
+- The space complexity of bubble sort is O(1) as no extra space required.
