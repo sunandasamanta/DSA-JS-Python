@@ -2,7 +2,31 @@
 # 50 Questions and Answers for DSA Theory Exam
 
 1. **What is the time complexity of the bubble sort algorithm?**\
-**Ans**. O(<sup>2</sup>)
+**Ans**.Bubble sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list as the larger elements "sink" to the bottom.
+
+    Here's how the bubble sort algorithm works:
+
+    1. **Compare**: The algorithm compares the first and second elements of the list. If the first element is larger than the second, they are swapped.
+
+    1. **Move**: The algorithm moves to the next pair of elements and repeats step 1.
+
+    1. **Repeat**: The algorithm repeats steps 1 and 2 for the entire length of the list.
+
+    1. **Check**: The algorithm then checks if any swap has been made in the last pass, if not the list is already sorted and no further passes are needed. If any swap was made, the algorithm repeats steps 1 to 3 again.
+
+    Here's an example of how bubble sort algorithm works on the following list:
+        [8, 5, 2, 9, 5, 6, 3]
+
+
+        1st pass: [5, 2, 8, 5, 6, 3, 9]  (8 and 5 swapped)
+        2nd pass: [2, 5, 5, 3, 6, 8, 9]  (8 and 2 swapped, 5 and 5 not swapped)
+        3rd pass: [2, 5, 3, 5, 6, 8, 9]  (5 and 3 swapped)
+        4th pass: [2, 3, 5, 5, 6, 8, 9]  (5 and 5 not swapped)
+        5th pass: [2, 3, 5, 5, 6, 8, 9]  (no swap made)
+    As we can see, after 5th pass, no swap is made which indicates that the list is sorted and the algorithm stops.
+
+    The time complexity of bubble sort is O(<sup>2</sup>) in the worst and average case, and O(n) in the best case (when the list is already sorted). This makes bubble sort not the best choice for large lists or when performance is a concern. But bubble sort is still simple and easy to understand, which makes it useful for educational purpose and small lists.
+    
 1. **What is the advantage of using a hash table over an array?**\
 **Ans**. The main advantage of using a hash table over an array is that it allows for efficient searching, insertion, and deletion of elements based on keys.
 
