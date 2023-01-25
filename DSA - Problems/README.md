@@ -66,14 +66,13 @@
 63. Find the number of cycles in a directed graph.
 64. Find the number of edges in a graph.
 65. Find the number of vertices in a graph.
-67. Implement a topological sort algorithm.
-68. Implement a strongly connected components algorithm.
-69. Implement a Tarjan's algorithm for finding strongly connected components.
-70. Implement a Kosaraju's algorithm for finding strongly connected components.
-71. Implement a Ford-Fulkerson algorithm for finding the maximum flow in a network.
-72. Implement a Edmonds-Karp algorithm for finding the maximum flow in a network.
-73. Implement a Dinic's algorithm for finding the maximum flow in a network.
-74. Implement a Huffman coding algorithm for data compression.
-75. Implement a LZW compression algorithm.
-
-76. Implement a Rabin-Karp algorithm for Pattern Searching
+66. Implement a topological sort algorithm.
+67. Implement a strongly connected components algorithm.
+68. Implement a Tarjan's algorithm for finding strongly connected components.
+69. Implement a Kosaraju's algorithm for finding strongly connected components.
+70. Implement a Ford-Fulkerson algorithm for finding the maximum flow in a network.
+71. Implement a Edmonds-Karp algorithm for finding the maximum flow in a network.
+72. Implement a Dinic's algorithm for finding the maximum flow in a network.
+73. Implement a Huffman coding algorithm for data compression.
+74. Implement a LZW compression algorithm.
+75. Implement a Rabin-Karp algorithm for Pattern Searching
