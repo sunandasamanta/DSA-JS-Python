@@ -22,3 +22,6 @@ Trees have several important properties that make them useful for solving many t
 8. **Graphs**: Trees are a specific type of graphs, where each node has at most one parent.
 
 In summary, trees are a powerful data structure that are used in a wide range of applications such as computer file systems, databases, and algorithms for searching and sorting. They are also used in artificial intelligence, where they are used to represent knowledge in a hierarchical form.
+
+
+...[Read More](./Tree.md)
