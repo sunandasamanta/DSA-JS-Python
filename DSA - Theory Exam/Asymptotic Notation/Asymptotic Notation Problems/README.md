@@ -75,5 +75,28 @@
 
 ## Twenty-Five Asymptotic Notation Long Questions
 
-<!-- twenty five asymptotic notation long questions and math on different algorithms, include easy, mid and difficult -->
-<!-- all data structures and algorithms in depth with example -->
+1. Explain the big-O notation of the bubble sort algorithm. (Easy)
+1. Compare and contrast the time complexity of quick sort and merge sort algorithms. (Mid)
+1. Explain the big-O notation of the linear search algorithm. (Easy)
+1. Compare and contrast the time complexity of depth-first search and breadth-first search algorithms in terms of big-O notation. (Mid)
+1. Explain the big-O notation of the insertion sort algorithm. (Easy)
+1. Compare and contrast the time complexity of the binary search algorithm and the linear search algorithm. (Easy)
+1. Explain the big-O notation of the selection sort algorithm. (Easy)
+1. Compare and contrast the time complexity of the quicksort algorithm and the heapsort algorithm. (Mid)
+1. Explain the big-O notation of the shell sort algorithm. (Mid)
+1. Compare and contrast the time complexity of the greedy algorithm and the dynamic programming algorithm. (Difficult)
+1. Explain the big-O notation of the radix sort algorithm. (Mid)
+1. Compare and contrast the time complexity of the Fibonacci search algorithm and the binary search algorithm. (Mid)
+1. Explain the big-O notation of the counting sort algorithm. (Easy)
+1. Compare and contrast the time complexity of the Dijkstra's algorithm and Bellman-Ford algorithm. (Difficult)
+1. Explain the big-O notation of the bucket sort algorithm. (Easy)
+1. Compare and contrast the time complexity of the Floyd-Warshall algorithm and the Johnson's algorithm. (Difficult)
+1. Explain the big-O notation of the topological sort algorithm. (Mid)
+1. Compare and contrast the time complexity of the Kruskal's algorithm and Prim's algorithm for finding the minimum spanning tree. (Mid)
+1. Explain the big-O notation of the knapsack algorithm. (Mid)
+1. Compare and contrast the time complexity of the A* algorithm and the IDA* algorithm. (Difficult)
+1. Explain the big-O notation of the Huffman coding algorithm. (Mid)
+1. Compare and contrast the time complexity of the Boyer-Moore algorithm and the Rabin-Karp algorithm. (Difficult)
+1. Explain the big-O notation of the KMP algorithm. (Mid)
+1. Compare and contrast the time complexity of the Apriori algorithm and the Eclat algorithm. (Difficult)
+1. Explain the big-O notation of the PageRank algorithm. (Difficult)
