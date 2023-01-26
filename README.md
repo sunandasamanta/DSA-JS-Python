@@ -19,9 +19,9 @@ Here are few common data structures:
 
 1. **Hash Tables**: A hash table is a data structure that uses a hash function to map keys to their corresponding values. It is often used to implement efficient lookup tables and dictionaries. For example, a hash table might be used to implement a spell checker that maps words to their correct spelling.
 
-1. **Heaps**: A heap is a data structure that follows a specific ordering principle, such as the min-heap or max-heap. It is often used to implement priority queues and to implement efficient sorting algorithms. For example, a min-heap might be used to implement a hospital triage system that prioritizes patients based on the severity of their condition.
+1. [**Heaps**](./Heap/README.md): A heap is a data structure that follows a specific ordering principle, such as the min-heap or max-heap. It is often used to implement priority queues and to implement efficient sorting algorithms. For example, a min-heap might be used to implement a hospital triage system that prioritizes patients based on the severity of their condition.
 
-1. **Trie**: A Trie, also known as a prefix tree, is a tree-like data structure that is used to store a collection of strings. Each node in a Trie represents a single character in a string, and each edge represents a progression from one character to the next. The root of the Trie represents the empty string, and the leaves of the Trie represent the strings that have been inserted into the Trie.
+1. [**Trie**](./Tree/Trie.md): A Trie, also known as a prefix tree, is a tree-like data structure that is used to store a collection of strings. Each node in a Trie represents a single character in a string, and each edge represents a progression from one character to the next. The root of the Trie represents the empty string, and the leaves of the Trie represent the strings that have been inserted into the Trie.
 
 
 **Algorithm** is a step-by-step procedure to solve a problem. It's a set of instructions that can be used to perform a specific task. Algorithms can be implemented using various programming languages and can be used to perform a wide range of tasks such as sorting, searching, and traversing data structures.
