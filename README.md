@@ -23,7 +23,6 @@ Here are few common data structures:
 
 1. [**Trie**](./Tree/Trie.md): A Trie, also known as a prefix tree, is a tree-like data structure that is used to store a collection of strings. Each node in a Trie represents a single character in a string, and each edge represents a progression from one character to the next. The root of the Trie represents the empty string, and the leaves of the Trie represent the strings that have been inserted into the Trie.
 
-
 **Algorithm** is a step-by-step procedure to solve a problem. It's a set of instructions that can be used to perform a specific task. Algorithms can be implemented using various programming languages and can be used to perform a wide range of tasks such as sorting, searching, and traversing data structures.
 
 The efficiency of an algorithm is measured by its time and space complexity. Time complexity is a measure of how much time an algorithm takes to execute, and is typically measured in big O notation, which describes the worst-case scenario. Space complexity, on the other hand, is a measure of how much memory an algorithm requires, and is also typically measured in big O notation.

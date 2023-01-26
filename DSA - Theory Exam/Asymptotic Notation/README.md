@@ -45,7 +45,7 @@ Asymptotic notation is a powerful tool to understand the performance of an algor
 
 ---
 
-**Space Complexity**
+## Space Complexity
 
 Space complexity refers to the amount of memory used by an algorithm during its execution. It is a measure of how much additional memory an algorithm requires as the size of the input data increases.
 

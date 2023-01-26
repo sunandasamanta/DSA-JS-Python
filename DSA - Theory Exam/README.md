@@ -25,7 +25,7 @@
         5th pass: [2, 3, 5, 5, 6, 8, 9]  (no swap made)
     As we can see, after 5th pass, no swap is made which indicates that the list is sorted and the algorithm stops.
 
-    The time complexity of bubble sort is O(<sup>2</sup>) in the worst and average case, and O(n) in the best case (when the list is already sorted). This makes bubble sort not the best choice for large lists or when performance is a concern. But bubble sort is still simple and easy to understand, which makes it useful for educational purpose and small lists.
+    The time complexity of bubble sort is O(n^2) in the worst and average case, and O(n) in the best case (when the list is already sorted). This makes bubble sort not the best choice for large lists or when performance is a concern. But bubble sort is still simple and easy to understand, which makes it useful for educational purpose and small lists.
 
 1. **What is the advantage of using a hash table over an array?**\
 **Ans**. The main advantage of using a hash table over an array is that it allows for efficient searching, insertion, and deletion of elements based on keys.
@@ -101,7 +101,7 @@
     - Find the connected components of an undirected graph
     - Detect cycles in a graph
     - Topological sorting
-    
+
     The time complexity of DFS is O(V+E) where V is the number of vertices and E is the number of edges. The space complexity is O(V) as worst case scenario DFS will have to store all the vertices in the call stack.
 
 1. **What is the time complexity of the breadth-first search algorithm?**\
@@ -122,10 +122,10 @@
 **Ans**. Quicksort is a divide-and-conquer algorithm that is used to sort an array or list of elements. It is one of the most efficient sorting algorithms with an average time complexity of O(n log n).
 
     Here is how the quicksort algorithm works:
-    1. **Select a pivot element**: The first step is to select a pivot element, which is typically the first or last element in the array. 
+    1. **Select a pivot element**: The first step is to select a pivot element, which is typically the first or last element in the array.
 
     1. **Partition the array**: The next step is to partition the array into two parts: one part with elements less than the pivot and one part with elements greater than the pivot. This is done by using two pointers (left and right) that start at the beginning and end of the array respectively. The left pointer moves towards the right until it finds an element greater than the pivot and the right pointer moves towards the left until it finds an element less than the pivot. Then the elements are swapped.
-    
+
     1. **Recursive sort**: The final step is to recursively sort the two partitions of the array. The quicksort algorithm is called recursively on the left partition (elements less than the pivot) and the right partition (elements greater than the pivot) until the base case is reached (an array of size 1 is already sorted).
 
     Here is an example of how the quicksort algorithm works on the array [8, 5, 2, 9, 5, 6, 3] with the pivot element being the first element 8:
@@ -166,7 +166,7 @@
     1. **Connectivity**: In directed graph, the connectivity between two vertices is defined by the directed edges between them and a vertex can be connected to another vertex but the other vertex may not be connected back. But in undirected graph, the connectivity between two vertices is defined by the edges between them and if a vertex is connected to another vertex, the other vertex is also connected back.
 
     In summary, a directed graph is a graph data structure where each edge has a direction and can have weight, and a path is defined by a sequence of directed edges. An undirected graph is a graph data structure where edges don't have any direction, are unweighted, and a path is defined by a sequence of edges.
-    
+
 1. **What is the time complexity of the Dijkstra's shortest path algorithm?**\
 **Ans**. Dijkstra's shortest path algorithm is an algorithm for finding the shortest path between nodes in a weighted graph. It is a type of graph search algorithm that makes use of a priority queue to select the next vertex to visit based on the distance from the starting vertex. The algorithm is named after its creator, Edsger W. Dijkstra.
 

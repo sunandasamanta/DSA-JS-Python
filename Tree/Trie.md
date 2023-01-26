@@ -1,3 +1,5 @@
+# Trie
+
 A Trie, also known as a prefix tree, is a tree-like data structure that is used to store a collection of strings. Each node in a Trie represents a single character in a string, and each edge represents a progression from one character to the next. The root of the Trie represents the empty string, and the leaves of the Trie represent the strings that have been inserted into the Trie.
 
 For example, consider a Trie that stores the words "bat", "batman", "batwoman", "batmobile", "batcave". The Trie would look like this:

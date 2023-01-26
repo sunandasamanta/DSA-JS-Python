@@ -1,3 +1,6 @@
+
+# Heap
+
 A heap is a special kind of tree-based data structure in which the tree is a complete binary tree. There are two types of heaps:
 
 **Min Heap**: In a Min Heap, the value of the root node is always the minimum among all the nodes in the heap. This means that the left and right child nodes of the root node must be greater than or equal to the root node. Similarly, all the descendants of the root node must also be greater than or equal to the root node. This property is known as the heap property.
@@ -14,7 +17,9 @@ Example of a Min Heap:
      / \    /
     20  30 15
 
-Example of a Min Heap:
+In this example, the value of the root node is 3 which is smaller than its children 9 and 10. And the value of 9 is smaller than its children 20 and 30, and so on.
+
+Example of a Max Heap:
 
       15
      /  \
@@ -22,9 +27,11 @@ Example of a Min Heap:
     / \
     5  2
 
-In this example, the value of the root node is 3 which is smaller than its children 9 and 10. And the value of 9 is smaller than its children 20 and 30, and so on.
+In this example, the value of the root node is 15 which is greater than its children 10 and 8. And the value of 10 is greater than its children 5 and 2, and so on.
 
-Heaps are commonly implemented using an array or a list in which the root node is stored at index 0, the left child of a node at index i is stored at index 2 * i + 1, and the right child of a node at index i is stored at index 2 * i + 2.
+In both examples, the root node satisfies the heap property, where the root node is the minimum element for Min Heap and the root node is the maximum element for Max Heap.
+
+Heaps are commonly implemented using an array or a list in which the root node is stored at index 0, the left child of a node at index i is stored at *index 2 i + 1, and the right child of a node at index i is stored at index 2 i + 2*.
 
 Here is an example of a Python implementation of a Min Heap:
 
